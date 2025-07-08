@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Bezael Imanuel</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <style>
+        /* Ini adalah area CSS untuk mengatur tampilan. */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        /* Bagian Header (Foto dan Info Kontak) */
+        .header {
+            display: flex;
+            align-items: center;
+            padding-bottom: 15px; 
+        }
+        .profile-photo {
+            flex-shrink: 0;
+        }
+        .profile-photo img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            
+        }
+        .header-info {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-left: 25px;
+        }
+        .name-title {
+            flex-shrink: 0;
+            margin-right: 20px;
+        }
+        .name-title h1 {
+            margin: 0;
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #000000;
+        }
+        /* GAYA BARU UNTUK TULISAN DI BAWAH NAMA */
+        .name-title .subtitle {
+            margin: 5px 0 0 0;
+            font-size: 1.2em;
+            font-weight: 400;
+            color: #555;
+        }
+        .contact-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: right;
+        }
+        .contact-list li {
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            margin-bottom: 5px;
+            font-size: 0.95em;
+        }
+        .contact-list li .text {
+            margin-right: 10px;
+        }
+        .contact-list li i {
+            color: #007BFF;
+            width: 16px;
+        }
+
+        /* Gaya khusus untuk deskripsi */
+        .description-section {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none; 
+            font-size: 1.05em;
+            text-align: justify;
+        }
+        
+        /* Gaya untuk bagian lain */
+        .section {
+            margin-top: 25px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+        }
+        .section h2 {
+            font-size: 1.6em;
+            color: #000000;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .section ul {
+            padding-left: 20px;
+        }
+        .section ul li {
+            margin-bottom: 8px;
+        }
+
+        /* Gaya untuk bagian Pendidikan */
+        .education-item {
+            margin-bottom: 15px;
+        }
+        .education-item strong {
+            color: #0056b3;
+        }
+        .education-item:last-child {
+            margin-bottom: 0;
+        }
+        .education-item h3 {
+            margin: 0 0 2px 0;
+            font-size: 1.2em;
+            font-weight: 600;
+        }
+        .education-item p {
+            margin: 0;
+        }
+        .education-item .date {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9em;
+        }
+        .hobby-list li {
+            display: inline-block;
+            background-color: #e9ecef;
+            color: #495057;
+            padding: 6px 15px;
+            margin: 5px 5px 5px 0;
+            border-radius: 15px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="header">
+            <div class="profile-photo">
+                <img src="images/profil.jpeg" alt="Foto Profil">
+            </div>
+            
+            <div class="header-info">
+                <div class="name-title">
+                    <h1>Bezael Imanuel</h1>
+                    <p class="subtitle">Soft Development</p>
+                </div>
+                
+                <ul class="contact-list">
+                    <li><span class="text">Karawang, Jawa Barat</span><i class="fas fa-map-marker-alt"></i></li>
+                    <li><span class="text">0812-9343-2402</span><i class="fas fa-phone"></i></li>
+                    <li><span class="text">bezaelnoel@gmail.com</span><i class="fas fa-envelope"></i></li>
+                    <li><span class="text">bezaelimanuel</span><i class="fab fa-linkedin"></i></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="description-section">
+            <p>
+                Saya adalah seorang mahasiswa Sistem Informasi tahun kedua yang antusias dan proaktif. Saat ini saya sedang mendalami framework Laravel, analisis sistem, dan pemrograman. Saya memiliki rasa ingin tahu yang tinggi terhadap teknologi dan bagaimana teknologi dapat digunakan untuk menyelesaikan masalah bisnis. Saya adalah seorang pembelajar yang cepat dan mencari kesempatan untuk bertumbuh dan berkontribusi secara langsung dalam sebuah tim.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>Keahlian</h2>
+            <ul>
+                <li>HTML5 & CSS3: Mahir dalam membuat struktur dan styling halaman web yang responsif.</li>
+                <li>JavaScript: Mampu membuat fungsionalitas interaktif untuk website.</li>
+                <li>SQL: Memahami dasar-dasar basis data dan mampu melakukan query sederhana.</li>
+                <li>Analisis Sistem: Memahami konsep dasar analisis sistem dan siklus hidup pengembangan perangkat lunak.</li>
+                <li>Git & GitHub: Terbiasa menggunakan sistem kontrol versi untuk kolaborasi proyek.</li>
+                <li>Laravel: Memahami framework Laravel untuk pengembangan aplikasi web.</li>
+                <li>Microsoft Office Suite (Word, PowerPoint): Berpengalaman dalam pengolahan data dan pembuatan presentasi.</li>
+                <li>Desain Grafis Dasar (Canva/Figma): Bisa membuat aset visual sederhana untuk web.</li>
+                <li>Komunikasi & Kerja Tim: Terbiasa bekerja dalam tim untuk mencapai tujuan bersama.</li>
+                </ul>
+        </div>
+        
+        <div class="section">
+            <h2>Pendidikan</h2>
+            <div class="education-item">
+                <h3>Sistem Informasi</h3>
+                <p><strong>Universitas Bina Sarana Informatika</strong></p>
+                <p class="date">2023 – Sekarang</p>
+                <p>IPK: 3.7</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Hobi</h2>
+            <ul class="hobby-list">
+                <li>Bermain Musik</li>
+                <li>Membaca Buku Teknologi</li>
+                <li>Bermain Catur</li>
+                <li>Fotografi</li>
+                </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>
